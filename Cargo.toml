@@ -1,0 +1,18 @@
+[package]
+name = "audio_player"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.31"
+egui = "0.31"
+rodio = "0.17"
+rand = "0.8"
+rfd = "0.9"
+rdev = "0.5"
+biquad = "0.5.0"
+rustfft = "6.1.0"
+egui-phosphor = "0.4.0"
+egui_plot = "0.31"
+image = "0.24"
+# Removed unused dependencies: id3, egui_extras, egui_dnd, itertools, chrono, tempfile
